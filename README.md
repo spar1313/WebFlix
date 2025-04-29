@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# WEBFLIX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created by  
+Jai - RA2212701010011  
+Sparsh - RA2212701010005  
+Hemant - RA2212701010010  
 
 ## Available Scripts
 
