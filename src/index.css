@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;800&family=Rowdies:wght@300&family=Rubik+Moonrocks&family=Shantell+Sans:wght@300&display=swap');
+
+body {
+    @apply bg-background text-white font-sans;
+}
+
+/* Text: universal white color for readability */
+h1, h2, h3, h4, h5, h6, p, span, li, div, a, small, strong, label {
+    @apply text-white;
+}
+
+/* Links */
+a {
+    @apply text-primary no-underline;
+}
+a:hover {
+    @apply text-accent;
+}
+
+/* Buttons */
+button {
+    @apply bg-primary text-white py-2 px-5 rounded-lg font-bold transition-all duration-300 ease-in-out;
+}
+button:hover {
+    @apply bg-accent text-background transform scale-105;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    @apply w-2;
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-lg;
+}
+::-webkit-scrollbar-track {
+    @apply bg-background;
+}
+
+/* Containers */
+.container {
+    @apply border border-[#333333] p-4 rounded-lg bg-[#1E1E1E];
+}
+
+/* Images: ensure posters and images are fully visible */
+img {
+    @apply object-contain w-full h-auto rounded-lg;
+}
+
+/* Main content wrapper spacing */
+.main-content {
+    @apply p-6 md:p-10 flex flex-col md:flex-row items-center gap-8;
+}
