@@ -1,6 +1,6 @@
 # WEBFLIX
 
-This project was created by  
+This project was created by - 
 Jai Singh - RA2212701010011  
 Sparsh Goyal - RA2212701010005  
 Hemant Garg - RA2212701010010  
